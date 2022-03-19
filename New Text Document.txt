@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio graphy</title>
+</head>
+
+
+
+
+<!--index.html is a special name for our file .
+     Speciality : Assume we have three or more files and there is no file named index.html,then the browser will
+      show the options among the 
+     files to be chosen. If we set the file name as index.html then it will be opened first. 
+     No need to select files seperately
+
+    The extension can also be saved as html .
+     But this one won't  open automatically in browser like above case .
+    And also this one won't be accessed if we forgot to allow this during backend work
+-->
+
+<!-- To shift a line of code use alt + Upward key or Downward key-->
+
+<!-- ctrl + /  : commenting or uncommenting Shortcut 
+    Commented lines will not be parsed by the displaying  browser
+-->
+
+<!-- HTML is a case insensitive language , Ex : <P>,<H1> are same as <p>,<h>
+    But it is recommended to use the lowwer case letter
+-->
+
+<!-- If we want to create a default paragraph then type plorem30 and 
+    press enter then default paragraph containing 30 words will be created
+    the no.of words can be chosen by us .
+-->
+<body>
+    <table cellspacing ="20">
+
+        <tr>
+            <td> <img src="https://scontent.fvga3-1.fna.fbcdn.net/v/t1.6435-9/98264129_121984379498809_6735704061066084352_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=_Sxkn-pYfOkAX-Bc7kj&_nc_ht=scontent.fvga3-1.fna&oh=3be1ae4a210e035ffb82013b5b26b54c&oe=61BF260A" alt="Pavan's Image"  height="200" width="200">  </td>
+
+            <td> 
+                <h2>Pavan Gopal Mourya</h2>
+                <h2>CSE 2nd year</h2>
+                <h2>IIIT Vadodara Gujarat</h2>
+            </td>
+
+        </tr>
+
+    </table>
+    <hr size="3" noshade>
+    <center>
+        <h1>Random Note :</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta veniam ipsa accusantium delectus ab deleniti culpa iure, sit enim esse inventore error blanditiis odit perferendis obcaecati magnam, nam exercitationem dolor. Dignissimos aperiam distinctio nisi reprehenderit provident et animi natus praesentium error odio architecto repellat maxime fugiat similique eius, placeat in ab! Cupiditate, sunt recusandae totam perferendis incidunt vero deserunt laboriosam numquam fugiat saepe, repudiandae non aspernatur. Suscipit repellat debitis praesentium obcaecati iusto natus, voluptate itaque cum non voluptas mollitia distinctio labore. Consectetur nisi quo eveniet ex harum iusto, suscipit, cum quaerat sed, quibusdam amet! Exercitationem atque labore illo deleniti quaerat, delectus similique ipsam vitae maxime totam dicta voluptas eum maiores aliquid possimus, quis pariatur obcaecati harum ad magnam repudiandae fugit? Id, esse. Quo blanditiis quibusdam necessitatibus beatae fugiat voluptatibus excepturi voluptatem? Quos, dolore earum voluptas vitae similique blanditiis adipisci quae est praesentium cupiditate animi voluptates hic quam reprehenderit modi sit? Ipsa voluptas non voluptates minus asperiores aliquam architecto dolore accusamus corporis blanditiis commodi tempora id reprehenderit nisi officia minima neque eligendi itaque quasi harum fugiat, provident odit? Quia iusto nemo dolore eius pariatur? Maxime ab, repellendus reprehenderit obcaecati, enim non dolore at nostrum ipsum natus accusamus eos ex sit adipisci expedita hic aperiam eligendi quaerat necessitatibus distinctio rerum aspernatur aliquid! Sunt quis quidem labore veritatis quia ut ab assumenda natus architecto facilis, hic quaerat, accusamus optio beatae iure officia cumque sit, laudantium ipsam dicta nihil dignissimos explicabo placeat. Quo eius, ut consectetur nihil similique ipsum maiores perferendis eum blanditiis commodi earum unde, consequuntur nostrum. Sequi dolore quidem facilis doloribus corrupti assumenda, veritatis omnis facere nemo quod tenetur reprehenderit distinctio illum qui animi nam asperiores! Dolorem molestias soluta deleniti, odio quasi laboriosam. Repudiandae deleniti numquam dolorum tempora reprehenderit voluptatum fugiat eligendi consequatur dolorem eos pariatur delectus debitis, officia accusamus distinctio? Sint!</p>
+    </center>
+    <hr size="3" noshade>
+    <h2>
+        <b>Goals :</b>
+    </h2>
+    <h4>
+        <ul>
+            <li>Web Developement </li> <!-- Syntax for unordered lists-->
+            <li>Devops </li>
+            <li>Machine Learning,Data Science</li>
+            <li>Block Chain Developement</li>
+        </ul> 
+    </h4>
+
+    <hr size="3" noshade>
+
+        <h2> Academics :</h2>
+            <h4>
+                <ol>
+                    <li>Data Structures</li> <!-- This is the syntax for ordered list i.e numbered-->
+                    <li>OOPS</li>
+                    <li>DBMS,OS,CN</li>
+                    <li>Discrete Maths,Probability</li>
+                </ol>
+            </h4> 
+    <hr size="3" noshade>
+
+    <h2> Skills :</h2>
+    <table cellspacing="10">
+
+    <tr>
+        <td>
+            <h3>Kabbadi</h3>
+            <h3>Volleyball</h3>
+            <h3>Webdevelopement</h3>
+            <h3>DataStructures</h3>
+        </td>
+        <td>
+            <p>&#11088; &#11088; &#11088; &#11088;</p>
+            <p>&#11088; &#11088; &#11088; &#11088; &#11088;</p>
+            <p>&#11088; &#11088; &#11088;</p>
+            <p>&#11088; &#11088; &#11088; </p>
+        </td>
+        
+
+    </tr>
+
+    </table>
+
+    <hr size="3" noshade>
+
+    <center>
+        <a href="register.html"><h1>GO to new page</h1></a>
+    </center>
+<!-- 
+    Now there are some different types as well.Let's see them. Like roman numerals and starting from a desired number 
+
+     For roman numbers : We use the "type" attribute 
+     <ol type = "i">                               OUTPUT :  i) DataStructures
+        <li>Data Structures</li>                             ii)OOPS
+        <li>OOPS</li>
+    </ol>
+
+    For Starting numbering from our desired number : We use the attributes "start"
+    <ol type = "8">                                OUTPUT :  8) DataStructures
+        <li>Data Structures</li>                             9)OOPS
+        <li>OOPS</li>
+    </ol>
+-->
+        
+    
+    <!-- center will display the output in the center
+         no shade will make the borders even more thick
+         <p> </p> -- paragraph
+         <em></em> --- Itallic representation
+         <b> </b> ---- bold
+    -->
+</body>
+</html>
